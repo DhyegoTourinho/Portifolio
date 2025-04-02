@@ -8,7 +8,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #f4f2eb 68%, #FCBe15 0%);
+    background: linear-gradient(to right, #f4f2eb 70%, #FCBe15 0%);
     /* background-color: #5D1D88 !important */
 }
 
@@ -51,7 +51,6 @@ html, body {
     letter-spacing: 4px;
     padding-left: 10vw;
 }
-
 .textual-informations h2{
     font-family: "Arial";
     font-optical-sizing: auto;
@@ -61,7 +60,6 @@ html, body {
     letter-spacing: 2px;
     padding-left: 8vw;
 }
-
 .textual-informations p {
     font-size: 2vw;
     font-family: "Winky Sans", sans-serif;
@@ -72,20 +70,18 @@ html, body {
     padding-left: 6vw;
     padding-right: 2vw;
 }
-
 .image{
     text-align: end;
     margin: 1%;
-    padding: 1%;
+    padding: 2%;
+    padding-right: 10vw;
     position: relative;
-    right: 10vh;
+    margin: 0;
+    right: 4vw;
 }
-
-img{
-    width: 40vw; 
-    height: 40vh;
+.FotoPerfil{
+    height: 60vh;
 }
-
 .container-projects{
     padding: 4vh;
     text-align: center;
@@ -100,7 +96,6 @@ img{
     justify-content: center; 
     flex-wrap: wrap;
     gap: 6vh 10vw; 
-    
 }
 
 .card {
@@ -123,7 +118,6 @@ p {
     font-weight: 400;
     font-style: normal;
 }
-
 .luckiest-guy-regular {
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
