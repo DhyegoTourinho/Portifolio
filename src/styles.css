@@ -71,16 +71,16 @@ html, body {
     padding-right: 2vw;
 }
 .image{
-    text-align: end;
-    margin: 1%;
-    padding: 2%;
-    padding-right: 10vw;
-    position: relative;
-    margin: 0;
-    right: 4vw;
+    background: #08385f;
+    padding: unset;
+    border-radius: 30% 68% 54% 53% / 32% 36% 64% 66%;
+    overflow: hidden;
+    min-width: fit-content;
+    margin-right: 12vw;
 }
 .FotoPerfil{
-    height: 60vh;
+    width: 20vw;
+    height: auto;
 }
 .container-projects{
     padding: 4vh;
