@@ -1,11 +1,12 @@
-import { Component, NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 
 export class AppModule { }
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -28,7 +29,7 @@ export class HomeComponent {
     }
     return projeto;
   }
-
+  isHovered = false;
 }
 
 class Projeto{
