@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -45,7 +46,7 @@ html, body {
     font-optical-sizing: auto;
     font-style: normal;
     letter-spacing: 4px;
-    padding-left: 10vw;
+    margin-left: 30%;
 }
 .textual-informations h2{
     font-family: "Arial";
@@ -54,17 +55,15 @@ html, body {
     font-weight: 900;
     font-style: normal;
     letter-spacing: 2px;
-    padding-left: 8vw;
+    margin-left: 10%;
 }
 .textual-informations p {
-    min-height: 50%;
+    font-size: 25px;
     font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    letter-spacing: 2px;
-    padding-left: 6vw;
-    padding-right: 2vw;
+    margin-left: 10%;
+    padding-right: 3%;
 }
 .image{
     background: #08385f;
@@ -80,7 +79,7 @@ html, body {
     height: auto;
 }
 .container-projects{
-    padding: 4vh;
+    margin: 0% 2% 0% 2%;
     text-align: center;
 }
 .projects-title{
@@ -96,10 +95,15 @@ html, body {
 }
 
 .card {
+    overflow: hidden;
     margin-bottom: 2%;
     width: 35%;
     transition: width 0.1s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.card-img-top{
 }
 .card:hover {
     margin-bottom: 2%;
@@ -111,7 +115,6 @@ html, body {
 
 .card a {
     text-decoration: none;
-    
 }
 
 .card-text {
@@ -133,9 +136,25 @@ p {
     font-style: normal;
   }
 
-div{
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-  
-/* teste */
 
+.container-contact{
+    margin-top: 1%;
+    display: flex;
+    justify-content: start;
+    gap: 0%;
+    padding-left:15%;
+}
+.container-contact a{
+    text-decoration: none;
+}
+.contact {
+    width: 20%;
+    display: inline-flex;
+}
+.contact:hover{
+    width: 25%;
+    transition: width 0.2s ease-in-out;
+}
+.contact * {
+    color:#202020;
+}
