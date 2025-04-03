@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, NgModule } from '@angular/core';
+
+export class AppModule { }
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,8 @@ export class HomeComponent {
   constructor() {
     this.projetos.push(this.adicionarProjeto("inegavel", "https://github.com/DhyegoTourinho/FrontEnd-Estudos/tree/main/Projects/Inegavel/inegavel", "ProjetoInegavel.png"));
     this.projetos.push(this.adicionarProjeto("JogoDasCharadas", "https://github.com/DhyegoTourinho/Projetos/tree/main/JogoDasCharadas", "JogoDasCharadas.png"));
+    this.projetos.push(this.adicionarProjeto("DesafioAPI", "https://github.com/DhyegoTourinho/APIDesafio", "DesafioAPI.png"));
+    this.projetos.push(this.adicionarProjeto("DesafioAPI", "https://github.com/DhyegoTourinho/APIDesafio", "DesafioAPI.png"));
     //TODO: Adicionar mais projetos.
   }
 
@@ -25,6 +28,7 @@ export class HomeComponent {
     }
     return projeto;
   }
+
 }
 
 class Projeto{
